@@ -1,10 +1,11 @@
 {
-    "name": "drupal-composer-ext/drupal-scaffold-docker",
+    "name": "d70rr3s/drupal-scaffold-docker",
     "description": "Composer Plugin for instantiating a Docker based Drupal workflow.",
+    "homepage": "https://github.com/d70rr3s/drupal-scaffold-docker",
     "type": "composer-plugin",
     "license": "GPL-2.0+",
     "require": {
-        "php": ">=5.4.5",
+        "php": ">=5.6",
         "composer-plugin-api": "^1.0.0"
     },
     "autoload": {
