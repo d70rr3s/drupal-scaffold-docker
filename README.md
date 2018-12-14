@@ -1,5 +1,10 @@
 # drupal-scaffold-docker
 
+> ### Disclaimer
+> This is a mirror from [drupal-composer-ext/drupal-scaffold-docker][mirror] with some customizations of the Docker
+> build process and the docker-compose.yml that I use in my daily work. Credits of the mirrored code and images goes
+> to their respective owners. Thanks to @sylus for the amazing work and inspiration.
+
 [![Build Status][ci-badge]][ci]
 
 Composer plugin for automatically downloading pre-configured Docker + Docker
@@ -45,7 +50,7 @@ with several controller files (see `Architecture` above) in your project root.
 Run the following command in your composer project:
 
 ```
-composer require drupal-composer-ext/drupal-scaffold-docker:8.x-dev PROJECT_NAME
+composer require d70rr3s/drupal-scaffold-docker:8.x-dev
 ```
 
 Once `drupal-scaffold-docker` is required by your project, it will
@@ -76,7 +81,8 @@ configuration by using `composer drupal-scaffold-docker`.
 > Note: It is currently assumed that the scaffold files will be committed to
 the repository.
 
-[ci]:                   https://travis-ci.org/drupal-composer-ext/drupal-scaffold-docker
-[ci-badge]:             https://travis-ci.org/drupal-composer-ext/drupal-scaffold-docker.svg?branch=8.x
+[mirror]:               https://github.com/drupal-composer-ext/drupal-scaffold-docker
+[ci]:                   https://travis-ci.org/d70rr3s/drupal-scaffold-docker
+[ci-badge]:             https://travis-ci.org/d70rr3s/drupal-scaffold-docker.svg?branch=8.x
 [docker-readme]:        template/docker/README.md
 [drupal-scaffold]:      https://github.com/drupal-composer/drupal-scaffold
